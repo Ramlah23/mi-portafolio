@@ -35,11 +35,14 @@ body {
     background-color: white;
     border-bottom: 1px solid lightgrey;
 }
+
+
+
 .menu  {
     display: flex;
     margin: 0 auto; 
     list-style: none;
-    padding: 30px;
+    padding: 20px;
   
 }
 .menu1{
@@ -260,7 +263,7 @@ p {
 }
 .titulo{
     text-align: center;
-   
+    font-size: 40px;
     font-weight: 800;
 }
 .texto{
@@ -344,9 +347,8 @@ ul {
     padding-inline-start: 40px;
 }
 .contacto {
-    display: flex;
+   display: flex;
     text-align: left;
-    flex-direction: column;
     background-color: #ffffff;
     padding: 80px 60px;
     border-radius: 15px;
@@ -551,6 +553,7 @@ ul {
 @media (max-width: 900px){}
 .contacto {
     flex-direction: column;
+   
     border: 0;}
 
 
