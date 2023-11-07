@@ -5,37 +5,49 @@ body {
     color: #2e2e31;
     margin: 0;
     height: 100%;
+ 
+   
 
 }
 * {
     box-sizing: border-box;
 }
 
+
 .cabecera { 
     width: 100%;
     max-width: 1100px;
     height: 30px;
     display: flex;
-  
     justify-content: flex-end;
-    
+    margin: 0%;
+
+  
+   
     
 }
 .contenedor-de-cabecera {
     display: flex;
     justify-content: flex-end;
-    margin-top: 20px;
+    align-items: center;
     position: fixed;
-    
- 
-  
-    
-    
+    width: 100%;
+    background-color: white;
+    border-style:outset;
+    border-color: rgba(211, 211, 211, 0.979);
 }
 .menu  {
     display: flex;
-    margin: 0;
-    list-style: none
+   
+    list-style: none;
+  
+}
+.menu1{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+   
 }
 .opcion{
         line-height: 2.5;
@@ -86,6 +98,7 @@ a {
 
 p {
     line-height: 1.4;
+    text-align: center;
 }
 
 p {
@@ -120,7 +133,11 @@ h1 {
     font-size: 16px;
     margin-bottom: 40px;
     
-    
+}
+.descripcion2{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
     
 }
 .boton {
@@ -145,6 +162,7 @@ h1 {
 @media (max-width: 700px){
 .section {
     padding: 80px 20px;
+    text-align: center;
 }
 
 }
@@ -161,6 +179,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 @media (max-width: 550px){
 h2 {
@@ -185,6 +204,7 @@ h2 {
     
     p {
         line-height: 1.4;
+        
         }
 
 .skills-grid {
@@ -240,6 +260,8 @@ p {
 }
 .titulo{
     text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 .texto{
     background-color: #8338ec;
