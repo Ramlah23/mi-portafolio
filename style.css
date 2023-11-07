@@ -185,12 +185,7 @@ h2 {
     p {
         line-height: 1.4;
         }
-.section {
-            display: flex;
-            justify-content: center;
-            
-            text-align: center;
-}
+
 .skills-grid {
     justify-content: center;
 }
@@ -490,4 +485,13 @@ ul {
     .footer-nav-link {
         color: white;
     }
- 
+    
+ @media (max-width: 900px){
+.columna {
+    max-width: 100%;
+}
+}
+.contacto .titulo {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
