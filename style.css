@@ -433,14 +433,18 @@ label {
 input[type="text" i] {
     writing-mode: horizontal-tb !important;
     padding-block: 1px;
-    padding-inline: 3px;
-    margin-left: 20px;
+    padding-inline: 8px;
+    margin-left: -5px;
+    height: 31px;
+    width: 100%;
 }
 input[type="email" i] {
     writing-mode: horizontal-tb !important;
     padding-block: 1px;
-    padding-inline: 2px;
-    margin-left: 20px;
+    padding-inline: 8px;
+    margin-left: -5px;
+    height: 31px;
+    width: 100%;
 }
 input, textarea {
     border: 0;
@@ -454,6 +458,7 @@ input, textarea {
     outline: none;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     transition: 0.2s;
+    margin-left: -5px;
 }
 .icon-invalid {
     color: #f5414f;
