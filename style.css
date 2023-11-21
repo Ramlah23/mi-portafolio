@@ -423,7 +423,6 @@ ul li, ol li {
 .form-control {
     margin-bottom: 15px;
     flex-grow: 1;
-    position: relative;
 }
 label {
     margin-bottom: 10px;
