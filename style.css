@@ -274,6 +274,11 @@ h1, .text--xxl {
     align-items: center;
 }
 /*frase*/
+.comillas {
+    font-size: 5rem;
+    margin-bottom: 20px;
+} 
+
 .alguien-seccion {
     background-color: #F163FF;
     color: white;
@@ -501,6 +506,9 @@ footer {
 .footer-social-links {
     display: flex;
     margin: 30px 0;
+}
+.footer-nav-link:hover {
+ color: white;
 }
 .footer-social-link {
     border-radius: 50%;
