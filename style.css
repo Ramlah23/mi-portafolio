@@ -360,6 +360,14 @@ h1, .text--xxl {
         border: 0;}
     }
  /*seccion Redes*/
+
+ .contacto-social-icon:hover {
+color: rgba(238, 130, 238, 0.566);
+ }
+ 
+ .contacto-social-link:hover{
+    color: violet;
+ }
  .contact-social-item {
     display: flex;
     margin: 5px 0;
@@ -539,4 +547,7 @@ footer {
     line-height: 2.7rem;
     text-align: center;
     transition: 0.1s;
+}
+.footer-social-icon:hover {
+color:rgba(238, 130, 238, 0.566) ;
 }
