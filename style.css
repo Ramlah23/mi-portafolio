@@ -1,6 +1,6 @@
 body {
     font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #2e2e31;
     margin: 0;
     height: 100%;
@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: flex-end;
     margin: 0%;
-    
+   
 }
 .contenedor-de-cabecera {
     display: flex;
@@ -26,11 +26,14 @@ body {
     width: 100%;
     background-color: white;
     border-bottom: 1px solid lightgrey;
+   
 }
 .menu1{
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    background-color: #d7a38ea8;
+    box-shadow: 0px 5px 20px #d7a38e;
 }
 
 /*menu de opciones*/
@@ -48,28 +51,28 @@ ul {
         line-height: 2.5;
         padding: 0 10px;
         border-radius: 100px;
-        background-color: white;
+       
 }
 a {
     text-decoration: none;
-    color: #2e2e31;
+    color: white;
     display: block;
     cursor: pointer;
 }
 .opcion:hover {
  
-    color: violet;
+    color: #616161;
    
  }
  .opcion1:hover {
-    background-color:  rgba(238, 130, 238, 0.566);
+    background-color: #d7a38e;
  }
 
 .opcion1 {
         line-height: 2.5;
         padding: 0 10px;
         border-radius: 100px;
-        background-color: rgba(214, 43, 226, 0.73);
+        background-color: #d7a38e;
         color: aliceblue;
 }
 
@@ -85,7 +88,7 @@ a {
 
 .boton:hover{
     
-   background-color: rgba(238, 130, 238, 0.566);
+   background-color: #d7a38e;
 }
 
 .section {
@@ -155,7 +158,7 @@ p {
 
     margin-top: 0;
     margin-bottom: 5px;
-    color: rgba(214, 43, 226, 0.73);
+    color: #d7a38e;
     
 }
 h1, .text--xxl {
@@ -167,12 +170,14 @@ h1, .text--xxl {
     font-size: 16px;
     margin-bottom: 40px;
 }
-.foto-inicial{width: 450px; 
+.foto-inicial{
+    width: 450px; 
     height: 350px;
+    
 }
 
 .boton {
-    background-color: rgba(214, 43, 226, 0.73);
+    background-color: #d7a38e;
     color: white;
     padding: 15px 40px;
     border-radius: 100px;
@@ -199,7 +204,7 @@ h1, .text--xxl {
     
 
 /*secciones habilidades*/
-.skill-secciones {
+.habilidades-secciones {
     background-color: #f6f7fb;
 }
 .h2, .text--xl {
@@ -217,11 +222,11 @@ h1, .text--xxl {
     margin-top: 40px;
 }
 
-.skills-recuadros {
+.habilidades-recuadros {
     justify-content: center;
 }
 
-.skill {
+.habilidades {
     
         color: #2e2e31;
         padding: 40px 20px;
@@ -234,13 +239,13 @@ h1, .text--xxl {
         transition: 0.2s;
     
 }
-.skill-item:hover{
-    border-color: violet;
-    color: violet;
+.habilidad-item:hover{
+    border-color: #d7a38e;
+    color: #d7a38e;
 }
 
 
-.skill-item {
+.habilidad-item {
     color: #2e2e31;
     text-align: center;
     background-color: #fff;
@@ -258,12 +263,12 @@ h1, .text--xxl {
     }
     }
  @media (max-width: 580px){
-    .skill-item {
+    .habilidad-item {
         width: calc(50% - 20px);
     }
     }
 
-.skill-titulo {
+.habilidad-titulo {
     font-size: 1.25em;
     font-weight: 700;
 }
@@ -280,7 +285,7 @@ h1, .text--xxl {
 } 
 
 .alguien-seccion {
-    background-color: #F163FF;
+    background-color: #d7a38e;
     color: white;
 }
 
@@ -307,8 +312,8 @@ h1, .text--xxl {
     
 
 .project:hover {
-    border-color: violet;
-    color: violet;
+    border-color: #d7a38e;
+    color: #d7a38e;
     
 }
 .nombre-proyecto {
@@ -406,7 +411,7 @@ color: rgba(238, 130, 238, 0.566);
     width: 2.2rem;
     height: 2.2rem;
     background-color: #fff;
-    color: #F163FF;
+    color: #d7a38e;
     border-radius: 50%;
     font-size: 1.2rem;
     line-height: 2.2rem;
@@ -496,7 +501,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 80px 20px 60px;
-    background-color: #F163FF;
+    background-color: #d7a38e;
     color: white;
 }
 .footer-nav-menu {
@@ -541,7 +546,7 @@ footer {
     width: 2.7rem;
     height: 2.7rem;
     background-color: white;
-    color: #F163FF;
+    color: #d7a38e;
     border-radius: 50%;
     font-size: 1.2rem;
     line-height: 2.7rem;
@@ -549,5 +554,5 @@ footer {
     transition: 0.1s;
 }
 .footer-social-icon:hover {
-color:rgba(238, 130, 238, 0.566) ;
+color: #d7a38e ;
 }
