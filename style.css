@@ -299,7 +299,7 @@ h1, .text--xxl {
 /*Grilla de proyectos*/
 .imagen-proyecto {
     width: 285px;
-    height: 365px;
+    height: 200px;
 }
 .project {
     border: 1px solid #dddfe5;
