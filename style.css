@@ -55,7 +55,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: #d7a38e89;
+    color: #d78e8e;
     display: block;
     cursor: pointer;
 }
@@ -177,15 +177,22 @@ h1, .text--xxl {
 }
 
 .boton {
-    background-color: #d7a38e;
-    color: white;
-    padding: 15px 40px;
-    border-radius: 100px;
-    font-weight: 500;
+    background-color: #d7a38ea8;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 70px;
+    font-weight: 300;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.boton:hover {
+    border-color: #d7a38e;
+   
+}
+
+
 @media (max-width: 700px){
     .foto-inicial {
         padding-top: 30px;
