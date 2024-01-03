@@ -55,7 +55,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #d7a38eb1;
     display: block;
     cursor: pointer;
 }
@@ -367,11 +367,11 @@ h1, .text--xxl {
  /*seccion Redes*/
 
  .contacto-social-icon:hover {
-color: rgba(238, 130, 238, 0.566);
+color: #d7a38e;
  }
  
  .contacto-social-link:hover{
-    color: violet;
+    color: #d7a38e;
  }
  .contact-social-item {
     display: flex;
@@ -501,7 +501,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 80px 20px 60px;
-    background-color: #d7a38e;
+    background-color: #d7a38ea8;
     color: white;
 }
 .footer-nav-menu {
