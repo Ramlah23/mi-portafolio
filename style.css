@@ -55,7 +55,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: #d78e8e;
+    color: #d78e9e;
     display: block;
     cursor: pointer;
 }
@@ -168,12 +168,12 @@ h1, .text--xxl {
 }
 .descripcion { 
     color: #616161;
-    font-size: 16px;
+    font-size: 1.5rem;
     margin-bottom: 40px;
 }
 .foto-inicial{
-    width: 450px; 
-    height: 350px;
+    width: 405px; 
+    height: 400px;
     
 }
 
@@ -211,12 +211,18 @@ h1, .text--xxl {
     h1 {
         font-size: 45px;
     }} 
-    
 
 /*secciones habilidades*/
 .habilidades-secciones {
     background-color: #f6f7fb;
 }
+
+.descripcion1 { 
+    color: #616161;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}   
+
 .h2, .text--xl {
     font-size: 45px;
     font-weight: 900;
@@ -292,7 +298,12 @@ h1, .text--xxl {
 .comillas {
     font-size: 5rem;
     margin-bottom: 20px;
-} 
+}
+.descripcion2 {
+    color: #616161;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
 
 .alguien-seccion {
     background-color: #d7a38e;
@@ -301,7 +312,7 @@ h1, .text--xxl {
 
 /*Grilla de proyectos*/
 .imagen-proyecto {
-    width: 285px;
+    width: 205px;
     height: 200px;
 }
 .project {
@@ -337,12 +348,21 @@ h1, .text--xxl {
     margin: 0px;
 } }
 
+
 .proyectos1 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    margin-left: 197px
+
 }
+@media (max-width: 450px){
+    .proyectos1 {
+        padding: 10px;
+        margin: 0px;
+    } }
+
 /*seccion contactame*/
 .contacto-seccion2 {
     background-color: #f6f7fb;
@@ -362,6 +382,13 @@ h1, .text--xxl {
     border-radius: 15px;
     border: 1px solid #e0e0e0;
 }
+
+.descripcion4{
+    color: #616161;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
 @media (max-width: 500px){
     .contacto {
         padding: 20px;
