@@ -66,6 +66,7 @@ a {
  }
  .opcion1:hover {
     background-color: #d7a38e;
+    color: #616161;
  }
 
 .opcion1 {
@@ -190,6 +191,7 @@ h1, .text--xxl {
 
 .boton:hover {
     border-color: #d7a38e;
+   
    
 }
 
