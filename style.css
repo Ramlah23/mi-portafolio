@@ -140,6 +140,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    margin: auto; 
     
 }
 
@@ -173,7 +174,8 @@ h1, .text--xxl {
 }
 .foto-inicial{
     width: 405px; 
-    height: 400px;
+    
+    margin: auto; 
     
 }
 
@@ -274,7 +276,7 @@ h1, .text--xxl {
 
 .habilidad-titulo {
     font-size: 1.25em;
-    font-weight: 700;
+    font-weight: 700px;
 }
 .contenido2 {
     display: flex;
@@ -301,7 +303,7 @@ h1, .text--xxl {
 /*Grilla de proyectos*/
 .imagen-proyecto {
     width: 205px;
-    height: 200px;
+    
 }
 .project {
     border: 1px solid #dddfe5;
@@ -310,7 +312,7 @@ h1, .text--xxl {
     padding: 30px;
     transition: 0.2s;
     text-align: center;
-    width: 400px;
+    width: 300px;
    
 }
 
@@ -344,7 +346,7 @@ h1, .text--xxl {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
-    margin-left: 155px
+    justify-content: center;
 
 }
 @media (max-width: 450px){
