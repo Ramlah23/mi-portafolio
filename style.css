@@ -591,3 +591,16 @@ color: #d7a38eb5 ;
 .input :hover{
     border-color:#d7a38eb5;
 }
+
+
+@media (max-width: 900px){
+.respuesta-form {
+    width: 50px;
+    height: 100px;
+    
+}
+}
+.respuesta-form {
+    width: 50px;
+    height: 100px;
+}
